@@ -13,4 +13,4 @@ RUN . .env
 
 EXPOSE 3000
 
-CMD ["sh", "-c", "source .env && node index.js"]
+CMD ["sh", "-c", "source .env && node app.js"]
