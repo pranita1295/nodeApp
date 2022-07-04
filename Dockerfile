@@ -9,8 +9,8 @@ RUN npm install
 
 WORKDIR /srv
 
-RUN . .env
+#RUN . .env
 
 EXPOSE 3000
 
-CMD ["sh", "-c", "source .env && node app.js"]
+CMD ["node","app.js"]
